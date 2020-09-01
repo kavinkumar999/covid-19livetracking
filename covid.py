@@ -22,12 +22,12 @@ recoveredcase=[]
 def loaddata(url):
     site=urlopen(url)
     return(json.load(site))
-url="https://covid19-server.chrismichael.now.sh/api/v1/IndiaCasesByStates"
+#url="https://covid19-server.chrismichael.now.sh/api/v1/IndiaCasesByStates"
 url1="https://api.quarantine.country/api/v1/summary/latest"
 
 hunt=loaddata(url1)
-result=loaddata(url)
-a=result
+#result=loaddata(url)
+#a=result
 state=[]
 active=[]
 confirm=[]
