@@ -7,7 +7,7 @@ colorama==0.4.3
 comtypes==1.1.7
 cycler==0.10.0
 decorator==4.4.2
-lxml==4.5.1
+lxml>=4.6.2
 MarkupSafe==1.1.1
 matplotlib==3.2.1
 numpy==1.18.5
